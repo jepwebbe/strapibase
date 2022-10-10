@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forminfos",
+  "info": {
+    "singularName": "forminfo",
+    "pluralName": "forminfos",
+    "displayName": "forminfo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "message": {
+      "type": "text"
+    },
+    "blog": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog.blog"
+    }
+  }
+}

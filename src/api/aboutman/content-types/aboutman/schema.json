@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutmen",
+  "info": {
+    "singularName": "aboutman",
+    "pluralName": "aboutmen",
+    "displayName": "Aboutman",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
